@@ -20,7 +20,7 @@ d) docker image inspect app_pogodowa --format="Warstwy obrazu: {{.RootFS.Layers}
   http://localhost:5050
 
 ## Screen potwierdzający działanie aplikcji zgodznie z wymogiem punktu 3.
-![Screen](z1_99618.png)
+![Screen](z1_99618.PNG)
 
 ## Autor - Mateusz Marczak
    
