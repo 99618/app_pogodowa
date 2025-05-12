@@ -21,6 +21,4 @@ d) docker image inspect app_pogodowa --format="Warstwy obrazu: {{.RootFS.Layers}
 
 ## Screen potwierdzający działanie aplikcji zgodnie z wymogiem punktu 3.
 ![Screen](z1_99618.PNG)
-
-## Autor - Mateusz Marczak
    
