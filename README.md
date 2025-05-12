@@ -2,7 +2,10 @@
 Wykonano prostą aplikację pogodową w Pythonie przy pomocy frameworku Flask.
 
 ## Polecenia wykorzystane w podpunkcie 4 (polecenia Dockera)
-a.
+a) docker build -t app-pogodowa .
+b) docker run -d -p 5050:5050 --name kon_pogody app_pogodowa
+c) docker logs kon_pogody
+d) docker image inspect app_pogodowa --format="Warstwy obrazu: {{.RootFS.Layers}}, Rozmiar obrazu: {{.Size}} B"
 
 ## Instrukcja uruchomienia obrazu
 1. Pobranie
@@ -15,6 +18,9 @@ a.
   ```
 3. Otworznie aplikacji w przeglądarce
   http://localhost:5050
+
+## Screen potwierdzający działanie aplikcji zgodznie z wymogiem punktu 3.
+![Screen](z1_99618.png)
 
 ## Autor - Mateusz Marczak
    
