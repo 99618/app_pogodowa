@@ -28,5 +28,3 @@ docker buildx imagetools inspect s99618ren/app_pogodowa:dod
 docker scout cves --platform linux/amd64 s99618ren/app_pogodowa:dod
 ```
 ![Wynik3](z1dod3_99618.PNG)
-
-## Autor - Mateusz Marczak
