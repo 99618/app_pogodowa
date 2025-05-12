@@ -10,7 +10,7 @@ d) docker image inspect app_pogodowa --format="Warstwy obrazu: {{.RootFS.Layers}
 ## Instrukcja uruchomienia obrazu
 1. Pobranie
   ```bash
-  docker pull s99618ren/app_pogodowa
+  docker pull s99618ren/app_pogodowa:latest
   ```
 2. Uruchomienie kontenera
   ```bash
