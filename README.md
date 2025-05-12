@@ -4,7 +4,7 @@ Wykonano zadanie 2. (max. +50%)
 ## Polecenie do utworzenia obrazu kontenera dla dwóch platform sprzętowych
 Pierwsza budowa aby zapisać cache we wskazanym rejestrze na DockerHub:
 ```bash
-docker buildx build --platform linux/amd64,linux/arm64,windows/amd64 --push --cache-to=type=registry,ref=s99618ren/app_pogodowa:cache,mode=max --tag s99618ren/app_pogodowa:dod .
+docker buildx build --platform linux/amd64,linux/arm64 --push --cache-to=type=registry,ref=s99618ren/app_pogodowa:cache,mode=max --tag s99618ren/app_pogodowa:dod .
 ```
 Druga budowa korzystająca z zapisanego cache na rejestrze w DockerHub:
 ```bash
