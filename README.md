@@ -1,4 +1,5 @@
 # Sprawozdanie z zadania 1, części nieobowiązkowej. 
+Wykonano zadanie 2. (max. +50%)
 
 ## Polecenie do utworzenia obrazu kontenera dla dwóch platform sprzętowych
 Pierwsza budowa aby zapisać cache we wskazanym rejestrze na DockerHub:
